@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives LWC the ability to use console Api</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>payload sent to console api</description>
+        <fieldName>payload</fieldName>
+    </lightningMessageFields>
+    <masterLabel>consoleChannel</masterLabel>
+</LightningMessageChannel>
