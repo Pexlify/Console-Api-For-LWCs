@@ -13,7 +13,7 @@ consoleApi Aura Component
 
 consoleUtils LWC
 
-##Set Up 
+##Set Up ##
 
 Import the required functions eg.    import {openSubtabUrl} from 'c/consoleUtils'
 
