@@ -13,7 +13,7 @@ consoleApi Aura Component
 
 consoleUtils LWC
 
-Set Up 
+##Set Up 
 
 Import the required functions eg.    import {openSubtabUrl} from 'c/consoleUtils'
 
@@ -23,9 +23,9 @@ import {  MessageContext } from 'lightning/messageService';
 
 @wire(MessageContext)messageContext
 
-Available Functions
+##Available Functions
 
-openSubtabUrl
+#openSubtabUrl
 Description:
 
 This function will open a subtab with the url passed to it.
@@ -50,7 +50,7 @@ openSubtabUrl(this , 'https://example.com,true)
 
  
 
-openSubtabComponent
+#openSubtabComponent
 Description:
 
 This function will open a subtab with the url passed to it.
@@ -75,7 +75,7 @@ openSubtabComponent(this , 'c__example' ,true)
 
  
 
-setTabLabel
+#setTabLabel
 Description:
 
 This function will set the subtab label and icon of the page you are currently on.
@@ -100,7 +100,7 @@ setTabLabel(this,'example','standard:case')
 
  
 
-setPrimaryTabLabel
+#setPrimaryTabLabel
 Description:
 
 This function will set the label of the top level tab. This only works by setting the tab label of the primary subtab which is what dictates the primary tab label. This is generally the first subtab. 
@@ -125,7 +125,7 @@ setPrimaryTabLabel(this,'example','standard:case')
 
  
 
-openSubtabRecord
+#openSubtabRecord
 Description:
 
 This function will open a subtab on a record
